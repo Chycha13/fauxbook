@@ -1,0 +1,230 @@
+body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    background-color: rgb(224, 221, 221);
+}
+nav{
+    display:flex;
+    align-items: center;
+    background-color: #3b5998 ;
+    width:100%;
+    height:6%;
+}
+.gauche{
+    display: flex;
+    height: 50%;
+    margin-left: 10%;}
+#barre{
+    width:700px;
+    border-radius: 10px 10px 10px 10px;
+    border:none;
+    display: flex;
+    margin-left: 5px;
+}
+.logo{
+    width: 40px;
+    height:40px;
+    display: flex;
+    margin-top: -5px;
+}
+.liens{
+    display: flex;
+    padding:0;
+    margin-left: 5px;    
+}
+.déco{
+    text-decoration: none;
+    color: antiquewhite; 
+}
+.profils{
+    display: flex;
+    margin-left: -40%;   
+}
+input:focus{
+    outline:none;
+}
+.avatar{
+    display: flex;
+    background: url(https://pbs.twimg.com/media/DVCyw4YW4AADjke.jpg);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    z-index:6;
+    border-radius: 99%;
+    margin-left:10%;
+}
+ul li a {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #30487B;
+    padding:0;
+    }
+ul > li {
+    list-style-type: none;
+    margin-right:45px;      
+}
+.bitogno{
+    outline: none;
+    border:none;
+    background-color: #3b5998;
+    color:#262B92;    
+    }
+.menu{
+        display: flex ;
+        margin-left: 5%;
+        column-gap: 10px;    
+}
+header{
+    margin:5px;
+    width:70%;
+    height:auto;
+    background-color: #3b5998;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left:10%;
+    margin-top: 10px;
+}
+.TMLC{
+    display: flex;
+    padding-left:300px;
+    flex-direction: column;
+    color:white;          
+}
+.h11{
+    margin-top:30px !important;
+}
+.photo{
+    width:20% ;
+    height:300%;
+    margin-bottom: 13%;
+    margin-left: 2%;   
+}
+.nav2{
+    display: flex;
+    width:100%;
+    height:15.5%;
+    background-color:white ;
+    align-items: center;
+}
+.boutonav2 {
+    display: flex;
+    text-decoration: none; 
+}
+.clc{
+    text-decoration: none;
+    color:black  
+}
+.clc:hover{
+    text-decoration: underline #3b5998;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 15px;
+    font-weight:bold;
+    border-spacing: 10px;
+}
+.séparation{
+    width:0.5px;
+    height:30px;
+    border:none;
+    background-color: lightgray;
+} 
+.trait{
+    margin:10px;
+    color:black;
+} 
+.select{
+    border:none;
+}
+header > .nav2 {
+    display:flex;
+}
+main{
+    display: flex;  
+    width: 83.4%;
+    justify-content: space-around;
+    margin-left: 9%;    
+}
+.coloneGauche{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+}
+.étiquette1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3%;
+    background-color: white;
+    border:whitesmoke;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;   
+}
+#titre1{
+    display: flex;
+    margin-top: -5px;
+}
+#lignebas,
+    #lignehaut{
+    width: 100%;
+    height: 1px;
+    margin-top:5%;
+    background-color:lightgray;
+}
+#lignebas{  
+    margin-top:3%;  
+}
+.étiquette2{
+    width: 100.3%;
+    height:50%;
+    background-color: red;
+    margin-top: 1%;
+}  
+.étiquette3{
+    width: 100%;
+    height:50%;
+    background-color:gray;
+    margin-top: 1%;
+}
+.coloneDroite{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+}
+.étiquette1droite{
+    width:80%;
+    height: 50%;
+    margin-top:0.2%;
+    margin-left:-2.8%;
+    background-color: #3b5998;
+    border:whitesmoke; 
+    display: flex;
+    flex-direction: column;
+} 
+.nav3{
+    display: flex;
+    width:100%;
+    height:25%;
+    background-color:white;
+}
+.mini{
+    width: 10%;
+    height: 75%;
+    margin:1%;
+    background-color:#3b5998 ;
+}
+.étiquette2droite{
+    width:80%;
+    height: 50%;
+    margin-top:0.6%;
+    margin-left:-2.8%;
+    background-color: #3b5998;
+    border:whitesmoke; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+
