@@ -1,6 +1,6 @@
 body{
     width:100%;
-    height:100vh;
+    height:120vh;
     display: flex;
     flex-direction: column;
     margin:0;
@@ -15,11 +15,12 @@ nav{
 }
 .gauche{
     display: flex;
+    width:50%;
     height: 50%;
     margin-left: 10%;}
 #barre{
-    width:700px;
-    border-radius: 10px 10px 10px 10px;
+    width:70%;
+    
     border:none;
     display: flex;
     margin-left: 5px;
@@ -54,7 +55,7 @@ input:focus{
     background-size: cover;
     z-index:6;
     border-radius: 99%;
-    margin-left:10%;
+    
 }
 ul li a {
     font-size: 16px;
@@ -90,12 +91,9 @@ header{
 }
 .TMLC{
     display: flex;
-    padding-left:300px;
+    padding-left:25%;
     flex-direction: column;
     color:white;          
-}
-.h11{
-    margin-top:30px !important;
 }
 .photo{
     width:20% ;
@@ -166,6 +164,12 @@ main{
     display: flex;
     margin-top: -5px;
 }
+.text{
+    margin-left:2%;
+}
+.monsite{
+    margin-left:2%;
+}
 #lignebas,
     #lignehaut{
     width: 100%;
@@ -177,17 +181,38 @@ main{
     margin-top:3%;  
 }
 .étiquette2{
+    display: flex;
+    flex-direction: column;
     width: 100.3%;
     height:50%;
-    background-color: red;
+    background-color: white;
     margin-top: 1%;
 }  
-.étiquette3{
-    width: 100%;
-    height:50%;
-    background-color:gray;
-    margin-top: 1%;
+.text2{
+    margin-left:2%;
 }
+.pd{
+    display: flex;
+    margin-left:5px;
+}
+
+
+.étiquette3{
+    width: 100.1%;
+    height: 100%;
+    background-color:white;
+    margin-top: 2%;
+}
+.mini2{
+    width: 95px;
+    height: 75px;
+    margin:1%;
+    background-color:#3b5998 ;
+}
+.part1{
+    display: flex;
+}
+
 .coloneDroite{
     display: flex;
     flex-direction: column;
@@ -198,16 +223,25 @@ main{
     height: 50%;
     margin-top:0.2%;
     margin-left:-2.8%;
-    background-color: #3b5998;
     border:whitesmoke; 
     display: flex;
     flex-direction: column;
 } 
+.étiquette1droite li{
+    margin:0.1%;
+}
 .nav3{
     display: flex;
     width:100%;
     height:25%;
     background-color:white;
+}
+.backs{
+    height:60%;
+    background-color: #3b5998;
+}
+#lignebas2{
+    margin-top:10%;
 }
 .mini{
     width: 10%;
@@ -217,14 +251,154 @@ main{
 }
 .étiquette2droite{
     width:80%;
-    height: 50%;
-    margin-top:0.6%;
+    height:35% ;
     margin-left:-2.8%;
-    background-color: #3b5998;
+    margin-top:1%;
+    background-color: white;
     border:whitesmoke; 
     display: flex;
     flex-direction: column;
+}
 
+.po{
+    display: flex;
+    padding-left: 2%; 
+}
+.po a {
+    text-decoration: none;
+}
+.po3{
+    display: flex;
+    padding-left: 2%;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.po3 a {
+    text-decoration: none;
+}
+.comment{
+    background-color: white;
+}
+.etiquettetext{
+    height:40%;
+    width:100%;
+}
+.étiquette2droite li {
+    margin:0.1%;
+}
+.comments2{
+    width:20%;
+}
+.nav4{
+    display: flex;
+    width:100%;
+    height: 40%;
+}
+.étiquette3droite{
+    width:80%;
+    height: 50%;
+    margin-top:1%;
+    margin-left:-2.8%;
+    border:whitesmoke; 
+    display: flex;
+    flex-direction: column;
+}
+.espace{
+    margin-left: -6%;
+}
+.SED{
+    display: flex;
+    flex-direction: column;
+    width:19%;
+    margin-top: 0.5%;}
+
+.SED a{
+    text-decoration: none;
+}
+.Cheader{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.carré1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    height : 10%;
+    background-color:white;
+}
+.bouton1{
+    list-style-type: none;
+    font-size: 100%;
+    text-decoration: none;   
+}
+.bouton2{
+    list-style-type: none;
+    font-size: 100%;
+    text-decoration: none; 
+}
+.carré2{
+    width:40%;
+    height: 12%;
+    text-align: center;
+    background-color: white;
+    border-top: 0.5px solid gray;
+    
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.SEGC{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    
+}
+.border{
+    padding-left: 4%;
+    border-left: solid rgb(80, 78, 78);
+}
+.border2{
+    margin-top:1%;
+    padding-left: 4%;
+    border-left: solid gray;
+}.mac{
+    padding-left:2% ;
+    margin-top:5%;
+    color: blue;
+}
+.carrédroit{
+    width:30%;
+    height:20%;
+    background-color:#3b5998 ;
+    margin-left:2% ;
+}
+.boutonlike{
+   display: flex;
+   margin-right: 0.8%;
+   
+}
+.coller{
+    display: flex;
+}
+   
+.barrebouton{
+     display: flex;
+    justify-content: flex-end;
+    margin:1%;
 }
 
 
+@media screen and (max-width :576px){ 
+    .SED{
+        display: none;
+    }
+}  
+@media screen and (max-width :576px){ 
+    .boutonav2{
+        display: none;
+    }
+}  
